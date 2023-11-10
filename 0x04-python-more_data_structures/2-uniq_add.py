@@ -5,7 +5,7 @@ def uniq_add(my_list=[]):
     for n in my_list:
         if n in newl:
             continue
-        elsei:
-            newl.append(a)
-            mysum += 1
+        else:
+            newl.append(n)
+            mysum += n
     return mysum
